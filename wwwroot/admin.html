@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+</head>
+
+<body>
+    <h1>hey my adminstretor</h1>
+
+    <h1>Uesrs CRUD</h1>
+    <h3>Add-user</h3>
+    <form action="javascript:void(0);" method="POST" onsubmit="addUser()">
+        <input type="text" id="add-name" placeholder="Name">
+        <input type="text" id="add-password" placeholder="Password">
+        <input type="submit" value="Add">
+    </form>
+
+    <p id="counter"></p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>id</th>
+            <th></th>
+        </tr>
+        <tbody id="users">
+        </tbody>
+    </table>
+    <script src="./js/admin.js"  asp-append-version="true"></script>
+    <script type="text/javascript">
+        GetAllUsers();
+    </script>
+</body>
+
+</html>

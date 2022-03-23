@@ -1,0 +1,53 @@
+input[type='submit'],
+button,[aria-label] {
+    cursor: pointer;
+}
+#edit-isDone{
+    display: inline;
+}
+
+#editForm {
+    display: none;
+
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    border: 1px,solid, rgb(231, 49, 80) ;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+
+}
+
+th {
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+}
+#add-name, #editForm input{
+    border: 1px,solid, rgb(231, 49, 80) ;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+}
+#usersJobs{
+    padding: 20px;
+    border-color: rgb(184, 247, 13);
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10%;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(95, 80, 83) ;
+    height: 50vh;
+    width: 30vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    padding: 10px;
+}
